@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+requests = "*"
+stellar-sdk = "*"
+eth-account = "==0.5.9"
+web3 = "==5.31.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
